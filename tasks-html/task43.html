@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 43: Find Volume and Surface Area of a Cone.</title>
+    <link rel="icon" href="../assets/icons/43.png">
+    <link rel="stylesheet" href="../css/task43.css">
+    <script src="../js/task43.js"></script>
+</head>
+
+<body>
+    <h1>43. JS Program to find Volume and Surface Area of a Cone.</h1>
+    
+    <div class="input">
+        <form>
+            <label for="number1">Enter length of the Cone (l):</label>
+            <input type="text" id="inputLength" name="number1"><br><br>
+            <label for="number2">Enter base radius of Cone (r):</label>
+            <input type="text" id="inputRadius" name="number2"><br><br>
+            <label for="number3">Enter height of Cone (h):</label>
+            <input type="text" id="inputHeight" name="number3"><br><br>
+            <button type="button" onclick="findVolume()">Find Volume</button><br>
+            <button type="button" onclick="findSurfaceArea()">Find Surface Area</button><br>
+            <button type="button" onclick="findCurvedSurfaceArea()">Find Curved Surface Area</button>
+        </form>
+    </div>
+    
+    <p id="volume"></p><br>
+    <p id="surfaceArea"></p><br>
+    <p id="curvedSurfaceArea"></p><br>
+
+  </body>
+</html>

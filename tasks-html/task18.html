@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 18: Eligibility of admission for a professional course.</title>
+    <link rel="icon" href="../assets/icons/18.png">
+    <link rel="stylesheet" href="../css/task18.css">
+    <script src="../js/task18.js"></script>
+</head>
+
+<body>
+    <h1>18. Write a JS program to find the eligibility of admission for a professional course based on the following criteria:</h1><br><br>
+    <h3>{Eligibility Criteria : Marks in Maths >=65, Marks in Phy >=55, Marks in Chem>=50 and Total in all three subject >=190 <br> (OR) <br> Total in Maths and Physics >=140}</h3>
+    
+    <div class="input">
+        <form>
+            <label for="physics">Enter mark obtained in PHYSICS:</label>
+            <input type="text" id="physicsMark" name="physics" onkeydown="handleKeyDown(event)"><br><br>
+            <label for="chemistry">Enter mark obtained in CHEMISTRY:</label>
+            <input type="text" id="chemistryMark" name="chemistry" onkeydown="handleKeyDown(event)"><br><br>
+            <label for="maths">Enter mark obtained in MATHS:</label>
+            <input type="text" id="mathsMark" name="maths" onkeydown="handleKeyDown(event)"><br><br>
+            <button type="button" onclick="findEligibility()" id="checkButton">Find eligibility!</button>
+        </form>
+    </div>
+    
+    <p id="result"></p>
+
+  </body>
+</html>

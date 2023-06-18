@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 5: Find Simple interest.</title>
+    <link rel="icon" href="../assets/icons/5.png">
+    <link rel="stylesheet" href="../css/task5.css">
+    <script src= "../js/task5.js"> </script>
+</head>
+<body>
+    <h1>5. Find Simple interest.</h1>
+    <!-- //S = (P * R * T) / 100
+    Where,
+        P (principal) is the amount that was initially borrowed (loan) from the bank or invested.
+        R (rate) is the rate of interest. 
+        T (time in years) is the duration for which the principal amount is given to someone. -->
+
+
+    <div class="input">
+        <form>
+            <label for="principalAmount">Enter Principal Amount (P):</label>
+            <input type="text" id="principal" name="principalAmount"><br><br>
+            <label for="interestRate">Enter Interest Rate (R):</label>
+            <input type="text" id="rate" name="interestRate"><br><br>
+            <label for="years">Enter Time in Years (T):</label>
+            <input type="text" id="time" name="years"><br><br>
+            <button type="button" onclick="calculateSimpleInterest()">Calculate Simple Interest</button>
+          </form>
+    </div>
+
+    <p id="printSimpleInterest"></p>
+
+</body>
+</html>

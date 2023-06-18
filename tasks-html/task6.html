@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 8: Compound Interest Calculator</title>
+    <link rel="icon" href="../assets/icons/6.png">
+    <link rel="stylesheet" href="../css/task6.css">
+    <script src= "../js/task6.js"> </script>
+</head>
+<body>
+    <h1>6. Find Compound Interest. </h1>
+    <!-- CI = A - P
+    A = P (1 + r/100) ^ n
+    => CI = P (1 + r/100) ^ n - P 
+    Here, P = principal , r = rate of interest , n = number of times interest is compounded per year & t = time (in years). -->
+
+    <div class="input">
+        <form>
+            <label for="principalAmount">Enter the Principal Amount (₹INR): </label>
+            <input type="text" id="pAmount" name="principalAmount"><br><br>
+            <label for="totalYears">Enter the Total Time (in years): </label>
+            <input type="text" id="tYears" name="totalYears"><br><br>
+            <label for="interestRate">Enter the Interest Rate: </label>
+            <input type="text" id="iRate" name="interestRate"><br><br>
+            <button type="button" onclick="calculateCompoundInterest()">Find Compound Interest</button>
+        </form>
+    </div>
+
+    <p id="result"></p>
+    
+</body>
+</html>

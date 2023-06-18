@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 1: Print Hello world</title>
+    <link rel="icon" href="../assets/icons/1.png">
+    <link rel="stylesheet" href="../css/task1.css">
+    <script src= "../js/task1.js"> </script>
+</head>
+
+<body>
+    <h1>1. Print Hello world</h1>
+    <p id="hello" class="hidden"></p>
+    <div class="button">
+        <button type="button" onclick="clickFunction()">Click here</button>
+    </div>
+
+    <script>
+        let isHelloVisible = false;
+
+        function clickFunction(){
+            let helloElement = document.getElementById("hello");
+
+            helloElement.classList.toggle("hidden");   //classList.toggle() method to toggle the "hidden" class on the "helloElement" (By toggling the "hidden" class on the element, the display style will be controlled based on the presence or absence of the class.)
+            
+            if (helloElement.classList.contains("hidden")) {
+                helloElement.innerHTML = "";    //If it has the class, clear the inner HTML by setting it to an empty string.
+            } else {
+                helloElement.innerHTML = "Hello World!";    // If it doesn't have the class, we set the inner HTML to "Hello World!".
+            }
+        }
+    </script>
+</body>
+
+<!-- <body>
+    <h1>1. Print Hello world</h1>
+    <p id="hello"></p>
+    <div class="button">
+        <button type="button" onclick="clickFunction()">Click here</button>
+    </div>
+
+    <script>
+        let isHelloVisible = false;
+
+        function clickFunction(){
+            var helloElement = document.getElementById("hello");
+            
+            if (isHelloVisible) {
+                helloElement.style.display = "none";
+                isHelloVisible = false;
+            } else {
+                helloElement.style.display = "flex";
+                helloElement.innerHTML = "Hello World!";
+                isHelloVisible = true;
+            }
+
+            document.getElementById("hello").innerHTML="Hello World!";
+        }
+    </script>
+</body> -->
+</html>

@@ -1,0 +1,1 @@
+//js code of task1.html is written in the <script></script> tag inside the .html code.

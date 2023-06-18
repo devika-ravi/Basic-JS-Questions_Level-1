@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    color: hotpink;
+}

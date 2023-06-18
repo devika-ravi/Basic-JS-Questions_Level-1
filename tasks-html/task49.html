@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 49: Print Fibonacci Series of N Numbers.</title>
+    <link rel="icon" href="../assets/icons/49.png">
+    <link rel="stylesheet" href="../css/task49.css">
+    <script src="../js/task49.js"></script>
+</head>
+
+<body>
+    <h1>49. Print Fibonacci series Up to N (0, 1, 1, 2, 3, 5, 8, 13, 21 etc).</h1>
+
+    <div class="input">
+        <form>
+            <label for="number">Enter number of Fibonacci Series you want to Print:</label>
+            <input type="text" id="userInput" name="number" onkeydown="handleKeyDown(event)"><br><br>
+            <button type="button" onclick="printFibonacciSeries()" id="printButton">Print Fibonacci Series!</button>
+          </form>
+    </div>    
+        
+    <p id="result"></p>
+
+  </body>
+</html>

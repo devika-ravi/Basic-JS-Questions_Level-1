@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 50:  Program to perform menu based arithmetic operations.</title>
+    <link rel="icon" href="../assets/icons/50.png">
+    <link rel="stylesheet" href="../css/task50.css">
+    <script src= "../js/task50.js"> </script>
+</head>
+<body>
+    <body>
+        <h1>50. Write a program to perform menu based arithmetic operations.</h1>
+        <h4>
+            1-Add<br>
+            2-Subtract<br>
+            3-Multiply<br>
+            4-Divide<br>
+            5-Exit!<br>
+            (NB : The program exit until you enter 5, otherwise return back to menu )
+        </h4>
+            
+        <div class="input">
+            <form>
+                <label for="num1">Enter the first number:</label>
+                <input type="number" id="num1"><br>
+                <label for="num2">Enter the second number:</label>
+                <input type="number" id="num2"><br>
+                <label for="operation">Select an operation:</label>
+                <select id="operation">
+                  <option value="1">Add</option>
+                  <option value="2">Subtract</option>
+                  <option value="3">Multiply</option>
+                  <option value="4">Divide</option>
+                  <option value="5">Exit</option>
+                </select>
+                <br><br><br><br><br><br>       
+                <button type="button" onclick="calculation()">Calculate</button><br>
+            </form>
+        </div>
+
+        <p id="result"></p>
+
+</body>
+</html>

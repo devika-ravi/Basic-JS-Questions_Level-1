@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 20:  Program to create a simple calculator.</title>
+    <link rel="icon" href="../assets/icons/20.png">
+    <link rel="stylesheet" href="../css/task20.css">
+    <script src= "../js/task20.js"> </script>
+</head>
+<body>
+    <body>
+        <h1>20.  Program to create a simple calculator.</h1>
+        <h4>
+            1-Add<br>
+            2-Subtract<br>
+            3-Multiply<br>
+            4-Divide<br>
+            5-Modulo<br>
+            Any other number Exit!
+        </h4>
+            
+        <div class="input">
+            <form>
+                <label for="number1">Enter first number: </label>
+                <input type="text" id="num1" name="number1"><br><br>
+                <label for="number2">Enter second number: </label>
+                <input type="text" id="num2" name="number2"><br><br>
+                <label for="number3">Enter an option: </label>
+                <input type="text" id="num3" name="number3"><br><br>
+                <button type="button" onclick="calculate()">Calculate</button><br>
+                <div id="reloadButton">
+                    <button type="button" onclick="reloadPage()">Reload Page</button>
+                </div>
+              </form>
+        </div>
+
+        <p id="result"></p><br>
+
+</body>
+</html>

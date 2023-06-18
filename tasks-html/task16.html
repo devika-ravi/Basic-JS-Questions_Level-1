@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 16: Find smallest and largest of three numbers.</title>
+    <link rel="icon" href="../assets/icons/16.png">
+    <link rel="stylesheet" href="../css/task16.css">
+    <script src="../js/task16.js"></script>
+</head>
+
+<body>
+    <h1>16. Find smallest and largest of three numbers.</h1>
+    
+    <div class="input">
+        <form>
+            <label for="numberOne">Enter first number:</label>
+            <input type="text" id="inputNumberOne" name="numberOne" onkeydown="handleKeyDown(event)"><br><br>
+            <label for="numberTwo">Enter second number:</label>
+            <input type="text" id="inputNumberTwo" name="numberTwo" onkeydown="handleKeyDown(event)"><br><br>
+            <label for="numberThree">Enter third number:</label>
+            <input type="text" id="inputNumberThree" name="numberThree" onkeydown="handleKeyDown(event)""><br><br>
+            <button type="button" onclick="findSmallAndLargeNumber()" id="checkButton">Find smallest and largest number!</button>
+        </form>
+    </div>
+    
+    <p id="result"></p>
+
+  </body>
+</html>

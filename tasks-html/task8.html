@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 8: Add, substract, multiply and divide two float numbers.</title>
+    <link rel="icon" href="../assets/icons/8.png">
+    <link rel="stylesheet" href="../css/task8.css">
+    <script src= "../js/task8.js"> </script>
+</head>
+<body>
+    <body>
+        <h1>8. Program to add, substract, multiply and divide two float numbers.</h1>
+        <div class="input">
+            <form>
+                <label for="number1">Enter a number: </label>
+                <input type="text" id="num1" name="number1"><br><br>
+                <label for="number2">Enter a number: </label>
+                <input type="text" id="num2" name="number2"><br><br>
+                <button type="button" onclick="addition()">ADD</button>
+                <button type="button" onclick="subtraction()">SUBTRACT</button>
+                <button type="button" onclick="multiplication()">MULTIPLY</button>
+                <button type="button" onclick="division()">DIVIDE</button>
+                <div id="reloadButton">
+                    <button type="button" onclick="reloadPage()">Reload Page</button>
+                </div>
+              </form>
+        </div>
+
+        <div id="answers">
+            <p id="sum"></p><br>
+            <p id="difference"></p><br>
+            <p id="product"></p><br>
+            <p id="quotient"></p>
+        </div>
+
+</body>
+</html>

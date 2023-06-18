@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 45: Find Volume and Surface Area of a Cuboid.</title>
+    <link rel="icon" href="../assets/icons/45.png">
+    <link rel="stylesheet" href="../css/task45.css">
+    <script src="../js/task45.js"></script>
+</head>
+
+<body>
+    <h1>45. JS Program to find Volume and Surface Area of a Cuboid.</h1>
+    
+    <div class="input">
+        <form>
+            <label for="number1">Enter length of the Cuboid (l):</label>
+            <input type="text" id="inputLength" name="number1"><br><br>
+            <label for="number2">Enter base width of Cuboid (w):</label>
+            <input type="text" id="inputWidth" name="number2"><br><br>
+            <label for="number3">Enter height of Cuboid (h):</label>
+            <input type="text" id="inputHeight" name="number3"><br><br>
+            <button type="button" onclick="findVolume()">Find Volume</button><br>
+            <button type="button" onclick="findSurfaceArea()">Find Surface Area</button><br>
+            <button type="button" onclick="findLateralSurfaceArea()">Find Lateral Surface Area</button>
+        </form>
+    </div>
+    
+    <p id="volume"></p><br>
+    <p id="surfaceArea"></p><br>
+    <p id="lateralSurfaceArea"></p><br>
+
+  </body>
+</html>
